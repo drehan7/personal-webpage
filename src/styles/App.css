@@ -25,7 +25,20 @@ body {
   background-attachment: fixed;
 }
 
+.nav-button {
+  /* background-color: #494967; */
+  background-color: inherit;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+
 .header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-right {
   display: flex;
   justify-content: space-between;
 }
