@@ -2,48 +2,6 @@
 
 * {
   font-family: "Montserrat", monospace;
-}
-body {
-  background-image: linear-gradient(
-    to right bottom,
-    #494947,
-    #003751,
-    #00586e,
-    #007a82,
-    #009d8c,
-    #00aa96,
-    #00b69f,
-    #00c3a9,
-    #00bbc0,
-    #00b2d2,
-    #00a6de,
-    #0098e0
-  );
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-  background-attachment: fixed;
-}
-
-.nav-button {
-  /* background-color: #494967; */
-  background-color: inherit;
-  color: white;
-  font-size: 20px;
-  border: none;
-}
-
-.header-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-right {
-  display: flex;
-  justify-content: space-between;
-}
-
-.top-left-name {
-  font-size: 30px;
-  color: white;
+  margin: 0;
+  padding: 0;
 }

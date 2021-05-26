@@ -1,0 +1,33 @@
+.NavBar {
+  margin: 0;
+  padding: 0;
+  background-color: #494947;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  z-index: 999;
+}
+
+.NavBar nav ul {
+  list-style: none;
+}
+
+.NavBar nav ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.NavBar nav ul li a {
+  text-decoration: none;
+  outline: none;
+  color: #fffaff;
+}
+
+.NavBar a:hover {
+  font-size: 20px;
+  border-bottom: 2px solid #44ccff;
+}
