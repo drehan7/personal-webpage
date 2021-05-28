@@ -1,8 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
 .Home {
   margin: 0;
   padding: 0;
   border: 1px solid purple;
   height: 100vh;
+  max-height: 100vh;
   background-image: linear-gradient(to bottom right, #35ff69, #44ccff);
   padding-top: 10%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.Middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+
+.Middle h1 {
+  font-size: 75px;
+}
+
+.Links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Links ul {
+  display: inline-flex;
+  margin-top: 55%;
+  margin-right: 50%;
+}
+.Links ul li {
+  list-style: none;
+  margin: 10%;
+}
+
+.Links ul li:hover {
+  opacity: 0.8;
+  border-radius: 50%;
+
+  border: 2px solid #f05d5e;
+}
+
+.Dynamic {
+  margin-top: 10%;
+  border-bottom: 2px solid red;
+}
+
+.Dynamic h1 {
+  font-size: 50px;
 }

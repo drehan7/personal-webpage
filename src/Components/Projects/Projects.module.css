@@ -1,0 +1,19 @@
+.Projects {
+  padding-top: 5%;
+  background-color: #9a8c98;
+  height: 100vh;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title h1 {
+  font-size: 57px;
+  border-bottom: 1px solid #494947;
+}
+
+.ProjectsContainer {
+}
