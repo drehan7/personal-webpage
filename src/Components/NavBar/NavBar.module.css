@@ -32,3 +32,19 @@
   font-size: 20px;
   border-bottom: 2px solid #44ccff;
 }
+
+@media only screen and (min-width: 768px) {
+  .NavBar button {
+    display: inline-block;
+  }
+}
+
+.NavBar button {
+  font-size: 20px;
+  width: 55px;
+  height: auto;
+  background-color: inherit;
+  border: none;
+  color: white;
+  display: none;
+}

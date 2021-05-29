@@ -21,6 +21,7 @@ const NavBar = () => {
                     </li>
                 </ul>
             </nav>
+            <button><i className="fa fa-bars"></i></button>
         </div>
     )
 }

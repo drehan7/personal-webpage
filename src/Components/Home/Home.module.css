@@ -5,6 +5,8 @@
   padding: 0;
   border: 1px solid purple;
   height: 100vh;
+  min-width: 100%;
+  max-width: 100%;
   max-height: 100vh;
   background-image: linear-gradient(to bottom right, #35ff69, #44ccff);
   padding-top: 10%;
@@ -23,7 +25,44 @@
 }
 
 .Middle h1 {
-  font-size: 75px;
+  font-size: 65px;
+}
+
+.Dynamic h1 {
+  font-size: 50px;
+}
+
+/* @media only screen and (min-width: 768px) {
+  .Middle h1 {
+    font-size: 55px;
+  }
+} */
+@media only screen and (min-width: 250px) {
+  .Middle h1 {
+    font-size: 19px;
+  }
+
+  .Dynamic h1 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .Middle h1 {
+    font-size: 20px;
+  }
+
+  .Dynamic h1 {
+    font-size: 25px;
+  }
+}
+/* Tablet mode */
+@media only screen and (min-width: 768px) {
+  .Middle h1 {
+    font-size: 40px;
+  }
+  .Dynamic h1 {
+  }
 }
 
 .Links {
@@ -51,8 +90,4 @@
 .Dynamic {
   margin-top: 10%;
   border-bottom: 2px solid red;
-}
-
-.Dynamic h1 {
-  font-size: 50px;
 }

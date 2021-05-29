@@ -5,3 +5,13 @@
   height: 100vh;
   color: white;
 }
+
+.Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Title h1 {
+  font-size: 45px;
+  border-bottom: 2px solid white;
+}
