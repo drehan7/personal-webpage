@@ -13,7 +13,11 @@
   z-index: 999;
 }
 
-.NavBar nav ul {
+.NavbBar nav {
+  display: flex;
+}
+
+.NavBar nav .nav-menu {
   list-style: none;
 }
 
@@ -33,12 +37,6 @@
   border-bottom: 2px solid #44ccff;
 }
 
-@media only screen and (min-width: 768px) {
-  .NavBar button {
-    display: inline-block;
-  }
-}
-
 .NavBar button {
   font-size: 20px;
   width: 55px;
@@ -47,4 +45,49 @@
   border: none;
   color: white;
   display: none;
+}
+
+.active {
+  background-color: black;
+}
+
+@media screen and (max-width: 460px) {
+  .NavBar {
+    display: block;
+  }
+  .NavBar button {
+    display: inline-block;
+    margin-top: 30%;
+  }
+  .NavBar nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .NavBar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    display: none;
+    transition: all 0.5s ease;
+  }
+  .NavBar li {
+    font-size: 15px;
+  }
+
+  .NavBar .NavMenuActive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    color: yellow;
+    background-color: #474749;
+    /* transition: all 0.5s ease; */
+  }
 }
