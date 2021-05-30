@@ -19,6 +19,10 @@
   line-height: 1.5;
 }
 
+.Paragraph strong {
+  font-size: 30px;
+}
+
 .Skills {
   margin: 5%;
   margin-top: 25px;
