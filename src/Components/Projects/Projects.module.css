@@ -1,7 +1,13 @@
 .Projects {
-  padding-top: 15%;
+  padding-top: 5%;
   background-color: #9a8c98;
   height: 100vh;
+}
+
+@media screen and (max-width: 540px) {
+  .Projects {
+    padding-top: 10%;
+  }
 }
 
 .Title {

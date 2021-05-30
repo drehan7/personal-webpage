@@ -16,6 +16,11 @@
   align-items: center; */
 }
 
+.social-icon {
+  width: 75px;
+  height: 75px;
+}
+
 .Middle {
   display: flex;
   justify-content: center;
@@ -30,6 +35,15 @@
 
 .Dynamic h1 {
   font-size: 50px;
+}
+
+.ScrollDown button {
+  margin-top: 30px;
+  background-color: inherit;
+  border: none;
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
 }
 
 /* @media only screen and (min-width: 768px) {
@@ -56,6 +70,14 @@
     font-size: 25px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .social-icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 /* Tablet mode */
 @media only screen and (min-width: 768px) {
   .Middle h1 {

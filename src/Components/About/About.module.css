@@ -1,9 +1,54 @@
 .About {
-  padding-top: 15%;
+  padding-top: 5%;
   background-color: #303030;
   /* background-image: linear-gradient(to bottom right, #35ff69, #44ccff); */
   height: 100vh;
   color: white;
+}
+
+.AboutMeSection {
+  margin: 5%;
+  padding: 3%;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+.Paragraph {
+  font-size: 25px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.Skills {
+  margin: 5%;
+  margin-top: 25px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.SkillsUL {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.SkillsUL li {
+  margin: 2%;
+  font-size: 17px;
+  color: #fffaff;
+}
+
+@media screen and (max-width: 540px) {
+  .About {
+    padding-top: 10%;
+  }
+  .Paragraph {
+    font-size: 15px;
+  }
+  .AboutMeSection {
+    margin-top: 20%;
+  }
 }
 
 .Title {
