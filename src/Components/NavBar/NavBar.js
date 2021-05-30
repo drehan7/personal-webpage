@@ -2,6 +2,7 @@ import classes from './NavBar.module.css'
 import React, { useState } from 'react'
 const NavBar = () => {
     const [click, setClick] = useState(false)
+    const [chosenTab, setChosenTab] = useState(true)
 
 
     const handleClick = () => setClick(!click)
