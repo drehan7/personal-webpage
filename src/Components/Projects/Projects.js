@@ -4,6 +4,8 @@ import { SocialIcon } from 'react-social-icons'
 import { GiWireframeGlobe } from 'react-icons/gi'
 import { RiCodeSSlashLine } from 'react-icons/ri'
 
+// TODO MAKE responsive!!!!!
+
 function Projects() {
     return (
         <div id="projects" className={classes.Projects}>
