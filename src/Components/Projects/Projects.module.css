@@ -32,15 +32,23 @@
 }
 
 .Proj {
-  background-color: #fffaff;
+  /* background-color: #fffaff; */
+  border: 1px solid red;
   margin: 5px;
+
+  padding: 2%;
+
   display: flex;
   flex-direction: column;
   width: 80%;
-  color: black;
+  color: white;
 }
 .ProjTitle {
   border: 1px solid yellow;
+}
+
+.ProjThumbnail img {
+  width: 30%;
 }
 
 .ProjDesc {

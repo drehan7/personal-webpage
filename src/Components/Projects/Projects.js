@@ -3,7 +3,6 @@ import { myProjects } from './myProjects'
 import { SocialIcon } from 'react-social-icons'
 import { GiWireframeGlobe } from 'react-icons/gi'
 import { RiCodeSSlashLine } from 'react-icons/ri'
-
 // TODO MAKE responsive!!!!!
 
 function Projects() {
@@ -19,10 +18,8 @@ function Projects() {
                             <h1>{proj.name}</h1>
                         </div>
                         <div className={classes.ProjThumbnail}>
+                            <img src={proj.thumbnail} alt='projectpic'></img>
 
-                        </div>
-                        <div className={classes.ProjThumbnail}>
-                            <h1>{proj.thumbnail}</h1>
                         </div>
                         <div className={classes.ProjDesc}>
                             <h1>{proj.description}</h1>
